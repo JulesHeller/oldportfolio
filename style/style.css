@@ -7,12 +7,21 @@ body{
     color: rgb(24, 22, 22);
 }
 
+::selection{
+    background-color:rgba(223, 133, 73, 0.603);
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
 /**** HEADER ****/
 
 header{
     display: flex;
     justify-content: space-around;
-    padding: 2vh 2vh;
+    padding: 2vh 2vw;
 
     font-family: 'Staatliches';
     font-size: 30px;
@@ -87,6 +96,8 @@ header>a{
 .divpresentation>img{
     height: 300px;
     border-radius: 100%;
+    -webkit-user-drag: none;
+    user-select: none;
 }
 
 .presentation{
@@ -101,9 +112,19 @@ header>a{
     margin-bottom: 20px;
 }
 
+.presentation a{
+    color: rgb(253, 101, 0);
+}
+
 /**** FOOTER ****/
 
+footer{
+    background:rgb(24, 22, 22);
+    padding: 2vh 2vh; 
+    color: white;
 
+    display: flex;
+}
 
 /**** BARRE DE SCROLL ****/
 
