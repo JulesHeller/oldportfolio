@@ -76,8 +76,14 @@ header>a{
 
 .divpresentation{
     display: flex;
+    align-items: center;
     justify-content: space-around;
     margin-top: 10vh;
+}
+
+.divpresentation>img{
+    height: 300px;
+    border-radius: 100%;
 }
 
 .presentation{
@@ -90,11 +96,6 @@ header>a{
     font-size: 45px;
     font-weight: bold;
     margin-bottom: 20px;
-}
-
-.divpresentation>img{
-    height: 300px;
-    border-radius: 100%;
 }
 
 /**** FOOTER ****/
