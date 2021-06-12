@@ -93,7 +93,7 @@ header>a{
     gap: 30px;
 }
 
-.divpresentation>img{
+.divpresentation img{
     height: 300px;
     border-radius: 100%;
     -webkit-user-drag: none;
@@ -116,13 +116,41 @@ header>a{
     color: rgb(253, 101, 0);
 }
 
+.presentation div{
+    margin-top: 20px;
+}
+
+.telechargerCV{
+    text-align: center;
+    margin: 20px;
+    font-size: 22px;
+    padding: 10px;
+    background:rgb(255, 148, 77);
+    color: white;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.presGauche{
+    display: grid;
+}
+
 /**** FOOTER ****/
 
 footer{
     background:rgb(24, 22, 22);
-    padding: 2vh 2vh; 
+    padding: 3vh 3vh; 
     color: white;
+    display: flex;
+    justify-content: space-between;
+}
 
+.footerLeft{
+    display: flex;
+    gap: 20px;
+}
+
+.footerLeft div{
     display: flex;
 }
 
