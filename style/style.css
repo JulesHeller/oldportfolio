@@ -38,6 +38,8 @@ header>a{
 
 .souligne{
     text-decoration: underline;
+    color: rgb(253, 101, 0);
+    cursor: unset;
 }
 
 /**** MAIN ****/
@@ -94,8 +96,8 @@ header>a{
 }
 
 .titre{
+    font-family: 'Staatliches';
     font-size: 45px;
-    font-weight: bold;
     margin-bottom: 20px;
 }
 
