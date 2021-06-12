@@ -15,7 +15,7 @@ header{
     padding: 2vh 2vh;
 
     font-family: 'Staatliches';
-    font-size: 26px;
+    font-size: 30px;
     user-select: none;
     color: rgb(24, 22, 22);
 
@@ -87,7 +87,7 @@ header>a{
 }
 
 .titre{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
     margin-bottom: 20px;
 }
