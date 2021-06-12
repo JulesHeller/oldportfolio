@@ -78,7 +78,7 @@ header>a{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 10vh;
+    margin: 50px 100px; 
 }
 
 .divpresentation>img{
