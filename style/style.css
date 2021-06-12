@@ -33,6 +33,7 @@ header{
     z-index: 10;
 
     background-color: rgb(255, 255, 255);
+    border-bottom: 4px solid rgb(218, 218, 218);
 }
 
 header>a{
