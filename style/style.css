@@ -1,0 +1,121 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    color: rgb(24, 22, 22);
+}
+
+/**** HEADER ****/
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 2vh 2vh;
+
+    font-family: 'Staatliches';
+    font-size: 26px;
+    user-select: none;
+    color: rgb(24, 22, 22);
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    background-color: rgb(255, 255, 255);
+}
+
+header>a{
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.linkHover{
+    color: rgb(253, 101, 0);
+    transition: 0.2s;
+}
+
+.souligne{
+    text-decoration: underline;
+}
+
+/**** MAIN ****/
+
+/* Image */
+
+.divphoto>img{
+    width: 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.divphoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.divphoto>h1{
+    position: absolute;
+    font-size: 70px;
+    padding: 2vh 4vw;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    border-radius: 3vh;
+}
+
+.petittitre{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.80);
+}
+
+/* Présentation */
+
+.divpresentation{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+.presentation{
+    font-size: 20px;
+    text-align: center;
+    width: 50vw;
+}
+
+.titre{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.divpresentation>img{
+    height: 300px;
+    border-radius: 100%;
+}
+
+/**** FOOTER ****/
+
+
+
+/**** BARRE DE SCROLL ****/
+
+::-webkit-scrollbar{
+    width: 0.75vw;
+}
+  
+::-webkit-scrollbar-track{
+    background: rgb(224, 224, 224);
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(131, 128, 128);
+    border-radius: 0.5vw;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(155, 153, 153);
+}
