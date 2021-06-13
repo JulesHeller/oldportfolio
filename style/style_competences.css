@@ -119,7 +119,7 @@ h3{
     display: grid;
     justify-content: center;
     margin: 20px;
-    border: rgb(182, 179, 179) solid 4px;
+    border: rgb(255, 148, 77) solid 4px;
     border-radius: 5px;
     width: 50vw;
 }
