@@ -95,6 +95,7 @@ header>a{
 }
 
 .divpresentation img{
+    margin-top: 30px;
     height: 300px;
     border-radius: 100%;
     -webkit-user-drag: none;
@@ -135,7 +136,6 @@ h2{
 
 .presGauche{
     display: grid;
-    margin-top: 50px;
 }
 
 /**** FOOTER ****/

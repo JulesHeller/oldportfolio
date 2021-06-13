@@ -7,6 +7,10 @@ body{
     color: rgb(24, 22, 22);
 }
 
+img{
+    -webkit-user-drag: none;
+}
+
 ::selection{
     background-color:rgba(223, 133, 73, 0.603);
 }
@@ -87,6 +91,8 @@ header>a{
 /* Compétences */
 
 .divCompetences{
+    display: grid;
+    justify-content: center;
     margin-top: 50px;
 }
 
@@ -94,6 +100,7 @@ h2{
     font-family: 'Staatliches';
     font-size: 45px;
     font-weight: normal;
+    margin: 0;
 }
 
 /**** FOOTER ****/
