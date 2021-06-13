@@ -90,7 +90,7 @@ header>a{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 50px 150px; 
+    margin: 30px 150px; 
     gap: 30px;
 }
 
@@ -107,17 +107,18 @@ header>a{
     width: 50vw;
 }
 
-.titre{
+h2{
     font-family: 'Staatliches';
     font-size: 45px;
-    margin-bottom: 20px;
+    font-weight: normal;
+    margin: 0 auto 20px;
 }
 
 .presentation a{
     color: rgb(253, 101, 0);
 }
 
-.presentation div{
+.textePres{
     margin-top: 20px;
 }
 
@@ -134,6 +135,7 @@ header>a{
 
 .presGauche{
     display: grid;
+    margin-top: 50px;
 }
 
 /**** FOOTER ****/

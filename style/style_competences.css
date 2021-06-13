@@ -84,6 +84,18 @@ header>a{
     color: rgba(255, 255, 255, 0.80);
 }
 
+/* Compétences */
+
+.divCompetences{
+    margin-top: 50px;
+}
+
+h2{
+    font-family: 'Staatliches';
+    font-size: 45px;
+    font-weight: normal;
+}
+
 /**** FOOTER ****/
 
 footer{
