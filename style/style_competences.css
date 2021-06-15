@@ -36,13 +36,17 @@ header{
     top: 0;
     z-index: 10;
 
-    background-color: rgb(255, 255, 255);
-    border-bottom: 4px solid rgb(218, 218, 218);
+    background: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 header>a{
     transition: 0.2s;
     cursor: pointer;
+    padding: 6px 25px;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
 .linkHover{
@@ -51,10 +55,9 @@ header>a{
 }
 
 .souligne{
-    text-decoration: underline;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.25);
     color: rgb(253, 101, 0);
     cursor: unset;
-    text-underline-offset: 2px;
 }
 
 /**** MAIN ****/
@@ -84,7 +87,7 @@ header>a{
     border-radius: 3vh;
 }
 
-.petittitre{
+.petitTitre{
     font-size: 50px;
     color: rgba(255, 255, 255, 0.80);
 }
