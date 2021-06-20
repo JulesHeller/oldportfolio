@@ -25,6 +25,7 @@ a{
 header{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 2vh 2vw;
 
     font-family: 'Staatliches';
@@ -58,6 +59,11 @@ header>a{
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.25);
     color: rgb(253, 101, 0);
     cursor: unset;
+}
+
+header>img{
+    position: absolute;
+    right: 30px;
 }
 
 /**** MAIN ****/
@@ -141,7 +147,7 @@ h4{
     padding: 5px;
     font-size: 30px;
     margin: 0 30px 0 30px;
-    width: 150px;
+    width: 165px;
     text-align: right;
 }
 
@@ -188,6 +194,16 @@ h4{
     justify-content: center;
     align-items: bottom;
     margin: 20px 20px 10px 20px;
+}
+
+.suiteAdobe{
+    display: grid;
+    justify-content: center;
+    margin: 16px;
+    border: rgb(0, 0, 0) solid 3px;
+    border-radius: 5px;
+    width: 1000px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
 /**** FOOTER ****/

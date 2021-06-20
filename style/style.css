@@ -21,6 +21,7 @@ a{
 header{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 2vh 2vw;
 
     font-family: 'Staatliches';
@@ -54,6 +55,11 @@ header>a{
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.25);
     color: rgb(253, 101, 0);
     cursor: unset;
+}
+
+header>img{
+    position: absolute;
+    right: 30px;
 }
 
 /**** MAIN ****/
