@@ -1,19 +1,26 @@
-/* PASSER LA SOURIS SUR LES LIENS*/
+/* DARK MODE */
 
-document.querySelectorAll("header a").forEach(e=>{
-    e.addEventListener("mouseover", linkHover);
-});
+document.querySelector("header img").addEventListener("click", darkMode);
 
-function linkHover(){
-    this.classList.add("linkHover");
-}
+function darkMode(){
+    console.log("Dark Mode")
+    
+    document.querySelector("header").classList.toggle("fondNoir")
 
-/* ENLEVER LA SOURIS DES LIENS */
+    document.querySelectorAll("header a").forEach(e=>{
+        e.classList.toggle("aNoir")
+    })
 
-document.querySelectorAll("header a").forEach(e=>{
-    e.addEventListener("mouseleave", linkLeave);
-});
+    document.getElementById("laPage").classList.toggle("laPage")
 
-function linkLeave(){
-    this.classList.remove("linkHover");
+    document.querySelector("main").classList.toggle("fondNoir")
+
+    if (document.querySelector("header>img").src="img/lune.svg")
+    {
+        document.querySelector("header>img").src="img/soleil.svg"
+    }
+    else
+    {
+        document.querySelector("header>img").src="img/lune.svg"
+    }   
 }
