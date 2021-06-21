@@ -57,7 +57,17 @@ header>a:hover{
 }
 
 header>img{
+    content: url("/img/lune.svg");
     position: absolute;
+    height: 30px;
+    right: 35px;
+    cursor: pointer;
+}
+
+.soleil{
+    content: url("/img/soleil.svg");
+    position: absolute;
+    height: 40px;
     right: 30px;
     cursor: pointer;
 }
