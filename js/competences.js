@@ -26,7 +26,7 @@ function darkMode(){
     document.querySelector(".programmation").classList.toggle("whiteOutline")
     document.querySelector(".suiteAdobe").classList.toggle("whiteOutline")
 
-    document.querySelectorAll("main img").forEach(e=>{
+    document.querySelectorAll(".competences img").forEach(e=>{
         e.classList.toggle("logoBlanc")
     })
 }
