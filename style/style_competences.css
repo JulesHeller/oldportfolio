@@ -62,9 +62,17 @@ header>a:hover{
 }
 
 header>img{
+    content: url("/img/lune.svg");
     position: absolute;
-    right: 30px;
+    height: 30px;
+    right: 33px;
     cursor: pointer;
+}
+
+.soleil{
+    content: url("/img/soleil.svg");
+    height: 40px;
+    right: 30px;
 }
 
 /**** MAIN ****/
@@ -190,6 +198,10 @@ h4{
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
+.programmation img{
+    content: url("/img/code.svg")
+}
+
 .divTitre{
     display: flex;
     justify-content: center;
@@ -205,6 +217,10 @@ h4{
     border-radius: 5px;
     width: 1000px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.suiteAdobe img{
+    content: url("/img/adobe.svg")
 }
 
 /**** FOOTER ****/
@@ -243,4 +259,56 @@ footer{
 
 ::-webkit-scrollbar-thumb:hover{
     background: rgb(253, 101, 0);
+}
+
+/**** DARK MODE ****/
+
+.fondNoir{
+    background: rgb(46, 46, 46);
+    color: white;
+    transition: 0.2s;
+}
+
+.aNoir{
+    background: rgb(46, 46, 46);
+    color: white;
+    transition: 0.2s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.aNoir:hover{
+    color: rgb(253, 101, 0);
+}
+
+.laPage{
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    color: rgb(253, 101, 0);
+    cursor: unset;
+}
+
+.darkPlein{
+    background: rgb(255, 148, 77);
+    height: 20px;
+    border: 2px solid rgb(255, 212, 183);
+    border-right: 0;
+    border-radius: 15px 0 0 15px;
+    transition: 0.2s;
+}
+
+.darkh4{
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+    color: rgb(92, 92, 92);
+    transition: 0.2s;
+}
+
+.whiteOutline{
+    border: rgb(255, 255, 255) solid 3px;
+    transition: 0.05s;
+}
+
+.logoBlanc{
+    filter: invert(1);
+    transition: 0.2s;
 }
