@@ -264,13 +264,13 @@ footer{
 /**** DARK MODE ****/
 
 .fondNoir{
-    background: rgb(46, 46, 46);
+    background: rgb(43, 49, 58);
     color: white;
     transition: 0.2s;
 }
 
 .aNoir{
-    background: rgb(46, 46, 46);
+    background: rgb(43, 49, 58);
     color: white;
     transition: 0.2s;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -288,18 +288,23 @@ footer{
 
 .darkPlein{
     background: rgb(255, 148, 77);
-    height: 20px;
     border: 2px solid rgb(255, 212, 183);
-    border-right: 0;
-    border-radius: 15px 0 0 15px;
     transition: 0.2s;
+    border-right: none;
+}
+
+.darkVide{
+    background: rgb(42, 44, 46);
+    border: 2px solid rgb(112, 112, 112);
+    transition: 0.2s;
+    border-left: none;
 }
 
 .darkh4{
     font-size: 30px;
     font-weight: normal;
     margin: 0;
-    color: rgb(92, 92, 92);
+    color: rgb(115, 127, 133);
     transition: 0.2s;
 }
 

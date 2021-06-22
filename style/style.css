@@ -199,13 +199,13 @@ footer{
 /**** DARK MODE ****/
 
 .fondNoir{
-    background: rgb(46, 46, 46);
+    background: rgb(43, 49, 58);
     color: white;
     transition: 0.2s;
 }
 
 .aNoir{
-    background: rgb(46, 46, 46);
+    background: rgb(43, 49, 58);
     color: white;
     transition: 0.2s;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);

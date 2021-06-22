@@ -18,6 +18,9 @@ function darkMode(){
     document.querySelectorAll(".plein").forEach(e=>{
         e.classList.toggle("darkPlein")
     })
+    document.querySelectorAll(".vide").forEach(e=>{
+        e.classList.toggle("darkVide")
+    })
     
     document.querySelectorAll("h4").forEach(e=>{
         e.classList.toggle("darkh4")
