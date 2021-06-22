@@ -33,3 +33,16 @@ function darkMode(){
         e.classList.toggle("logoBlanc")
     })
 }
+
+/* SCROLL FORCE */
+
+var rootElement = document.documentElement
+
+document.getElementById("scrollTop").addEventListener("click", scrollTop)
+
+function scrollTop(){
+    rootElement.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
+}

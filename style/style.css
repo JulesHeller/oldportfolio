@@ -168,11 +168,14 @@ h2{
 /**** FOOTER ****/
 
 footer{
+    display: flex;
+    align-items: center;
     background:rgb(24, 22, 22); 
     padding: 3vh 3vh;
     color: white;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .footerLeft{
@@ -182,6 +185,15 @@ footer{
 
 .footerLeft div{
     display: flex;
+}
+
+.up{
+    filter: invert(1);
+    position: absolute;
+    height: 40px;
+    z-index: 3;
+    margin-left: 50%;
+    cursor: pointer;
 }
 
 /**** BARRE DE SCROLL ****/

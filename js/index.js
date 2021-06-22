@@ -15,3 +15,16 @@ function darkMode(){
 
     document.querySelector("header img").classList.toggle("soleil")
 }
+
+/* SCROLL FORCE */
+
+var rootElement = document.documentElement
+
+document.getElementById("scrollTop").addEventListener("click", scrollTop)
+
+function scrollTop(){
+    rootElement.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
+}
