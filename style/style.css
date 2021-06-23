@@ -188,7 +188,6 @@ footer{
 }
 
 .up{
-    filter: invert(1);
     position: absolute;
     height: 40px;
     z-index: 3;
