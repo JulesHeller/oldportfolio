@@ -28,10 +28,13 @@ function darkMode(){
 
     document.querySelector(".programmation").classList.toggle("whiteOutline")
     document.querySelector(".suiteAdobe").classList.toggle("whiteOutline")
+    document.querySelector(".packOffice").classList.toggle("whiteOutline")
 
     document.querySelectorAll(".competences img").forEach(e=>{
         e.classList.toggle("logoBlanc")
     })
+
+    // Condition Local Storage
 
     if (localStorage.getItem("dark_mode") == "true")
     {
@@ -42,6 +45,8 @@ function darkMode(){
         localStorage.setItem("dark_mode", "true")
     }
 }
+
+// Forcer le dark mode s'il a déjà été activé
 
 function forceDarkMode(){
     document.querySelector("header").classList.toggle("fondNoir")
@@ -69,6 +74,7 @@ function forceDarkMode(){
     
     document.querySelector(".programmation").classList.toggle("whiteOutline")
     document.querySelector(".suiteAdobe").classList.toggle("whiteOutline")
+    document.querySelector(".packOffice").classList.toggle("whiteOutline")
     
     document.querySelectorAll(".competences img").forEach(e=>{
         e.classList.toggle("logoBlanc")
