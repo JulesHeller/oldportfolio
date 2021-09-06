@@ -111,7 +111,6 @@ header>img{
 
 .divCompetences{
     display: grid;
-    margin-top: 20px;
     justify-content: center;
     text-align: center;
 }
@@ -132,7 +131,7 @@ h3{
     font-family: 'Staatliches';
     font-size: 35px;
     font-weight: normal;
-    margin: 8px 8px 0;
+    margin: 8px 15px 0;
 }
 
 h4{
@@ -180,12 +179,40 @@ h4{
     border-radius: 15px 0 0 15px;
 }
 
+.plein100{
+    background: rgb(255, 148, 77);
+    height: 20px;
+    border: 2px solid rgb(192, 77, 0);
+    border-radius: 15px;
+}
+
 .vide{
     background-color: white;
     height: 20px;
     border: 2px solid rgb(170, 170, 170);
     border-left: 0;
     border-radius: 0 15px 15px 0;
+}
+
+.divTitre{
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+    margin: 20px 20px 10px 20px;
+}
+
+.langues{
+    display: grid;
+    justify-content: center;
+    margin: 16px;
+    border: rgb(0, 0, 0) solid 3px;
+    border-radius: 5px;
+    width: 1000px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.langues img{
+    content: url("../img/langue.svg")
 }
 
 .programmation{
@@ -200,13 +227,6 @@ h4{
 
 .programmation img{
     content: url("../img/code.svg")
-}
-
-.divTitre{
-    display: flex;
-    justify-content: center;
-    align-items: bottom;
-    margin: 20px 20px 10px 20px;
 }
 
 .suiteAdobe{
@@ -232,6 +252,11 @@ h4{
     width: 1000px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
+
+.packOffice img{
+    content: url("../img/office.svg")
+}
+
 
 /**** FOOTER ****/
 
@@ -291,7 +316,7 @@ footer{
 }
 
 .aNoir{
-    background: rgb(36, 40, 46);
+    background: rgb(39, 42, 46);
     color: white;
     transition: 0.2s;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -312,6 +337,13 @@ footer{
     border: 2px solid rgb(255, 212, 183);
     transition: 0.2s;
     border-right: none;
+}
+
+.darkPlein100{
+    background: rgb(255, 148, 77);
+    height: 20px;
+    border: 2px solid rgb(255, 212, 183);
+    border-radius: 15px;
 }
 
 .darkVide{

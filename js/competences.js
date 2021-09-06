@@ -18,6 +18,9 @@ function darkMode(){
     document.querySelectorAll(".plein").forEach(e=>{
         e.classList.toggle("darkPlein")
     })
+    document.querySelectorAll(".plein100").forEach(e=>{
+        e.classList.toggle("darkPlein100")
+    })
     document.querySelectorAll(".vide").forEach(e=>{
         e.classList.toggle("darkVide")
     })
@@ -29,6 +32,7 @@ function darkMode(){
     document.querySelector(".programmation").classList.toggle("whiteOutline")
     document.querySelector(".suiteAdobe").classList.toggle("whiteOutline")
     document.querySelector(".packOffice").classList.toggle("whiteOutline")
+    document.querySelector(".langues").classList.toggle("whiteOutline")
 
     document.querySelectorAll(".competences img").forEach(e=>{
         e.classList.toggle("logoBlanc")
@@ -75,6 +79,7 @@ function forceDarkMode(){
     document.querySelector(".programmation").classList.toggle("whiteOutline")
     document.querySelector(".suiteAdobe").classList.toggle("whiteOutline")
     document.querySelector(".packOffice").classList.toggle("whiteOutline")
+    document.querySelector(".langues").classList.toggle("whiteOutline")
     
     document.querySelectorAll(".competences img").forEach(e=>{
         e.classList.toggle("logoBlanc")
