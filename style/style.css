@@ -207,7 +207,7 @@ footer{
 
 ::-webkit-scrollbar-thumb{
     background: rgb(255, 148, 77);
-    border-radius: 0.5vw;
+    border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb:hover{
