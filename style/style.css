@@ -22,7 +22,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 2vh 2vw;
+    padding: 10px 10px;
 
     font-family: 'Staatliches';
     font-size: 30px;
@@ -91,11 +91,11 @@ header>img{
 .divphoto>h1{
     position: absolute;
     font-size: 70px;
-    padding: 2vh 4vw;
+    padding: 20px 40px;
     background: rgba(0, 0, 0, 0.5);
     color: white;
     text-align: center;
-    border-radius: 3vh;
+    border-radius: 30px;
 }
 
 .petitTitre{
@@ -109,7 +109,7 @@ header>img{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 30px 150px; 
+    margin: 40px; 
     gap: 30px;
 }
 
@@ -124,7 +124,12 @@ header>img{
 .presentation{
     font-size: 22px;
     text-align: center;
-    width: 50vw;
+    width: 700px;
+}
+
+.formation{
+    font-size: 22px;
+    text-align: center;
 }
 
 h2{
@@ -136,6 +141,7 @@ h2{
 
 .presentation a{
     color: rgb(253, 101, 0);
+    font-weight: bold;
 }
 
 .textePres{
@@ -171,7 +177,7 @@ footer{
     display: flex;
     align-items: center;
     background:rgb(24, 22, 22); 
-    padding: 3vh 3vh;
+    padding: 18px 30px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -198,7 +204,7 @@ footer{
 /**** BARRE DE SCROLL ****/
 
 ::-webkit-scrollbar{
-    width: 0.75vw;
+    width: 10px;
 }
   
 ::-webkit-scrollbar-track{
