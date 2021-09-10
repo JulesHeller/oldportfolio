@@ -110,7 +110,6 @@ header>img{
     align-items: center;
     justify-content: space-around;
     margin: 40px; 
-    gap: 30px;
 }
 
 .photoDeMoi{
@@ -130,6 +129,11 @@ header>img{
 .formation{
     font-size: 22px;
     text-align: center;
+    width: 700px;   
+}
+
+.presCote>img{
+    width: 300px;
 }
 
 h2{
@@ -144,7 +148,7 @@ h2{
     font-weight: bold;
 }
 
-.textePres{
+.blocTexte{
     margin-top: 20px;
 }
 
@@ -167,7 +171,7 @@ h2{
     margin: 0 5px -2px 0;
 }
 
-.presGauche{
+.presCote{
     display: grid;
 }
 
@@ -256,4 +260,9 @@ footer{
     color: white;
     transition: 0;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.graphBlanc{
+    filter: invert(1);
+    transition: 0.2s;
 }

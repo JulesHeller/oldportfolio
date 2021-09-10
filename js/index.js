@@ -15,6 +15,12 @@ function darkMode(){
 
     document.querySelector("header img").classList.toggle("soleil")
 
+    document.querySelectorAll(".graph").forEach(e=>{
+        e.classList.toggle("graphBlanc")
+    })
+
+    // Condition Local Storage
+
     if (localStorage.getItem("dark_mode") == "true")
     {
         localStorage.removeItem("dark_mode")
@@ -24,6 +30,8 @@ function darkMode(){
         localStorage.setItem("dark_mode", "true")
     }
 }
+
+// Forcer le dark mode s'il a déjà été activé
 
 function forceDarkMode(){
     document.querySelector("header").classList.toggle("fondNoir")
@@ -37,6 +45,10 @@ function forceDarkMode(){
     document.querySelector("main").classList.toggle("fondNoir")
 
     document.querySelector("header img").classList.toggle("soleil")
+
+    document.querySelectorAll(".graph").forEach(e=>{
+        e.classList.toggle("graphBlanc")
+    })
 
     localStorage.setItem("dark_mode", "true")
 }
